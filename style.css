@@ -1,0 +1,104 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://i.ibb.co/NsDkjGc/fundomoedas.png");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.logomoedas{
+  width: 15%;
+}
+
+body > img {
+  margin: 0 10px;
+}
+
+img {
+  max-height: 250px;
+}
+
+#resultado {
+  text-align: center;
+  color: #197BE9;
+  font-size: 20px;
+}
+
+main {
+  width: 270px;
+  height: 320px;
+  border-radius: 12px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  padding: 0px 30px 45px 30px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.0), 0 6px 6px rgba(0,0,0,0.20);
+}
+
+#thisdate {
+  padding: 10px 0px;
+  font-size: 15px;
+  color: #197BE9;
+    width: 220px;
+    margin-top: -30px;
+    margin-bottom: 25px;
+    background-color: white;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.0), 0 6px 6px rgba(0,0,0,0.20);
+    color: #197BE9;
+    font-size: 18px;
+}
+
+.valor {
+  padding: 12px;
+  border-radius: 10px;
+  border: 3px solid #197BE9;
+}
+
+.select {
+  padding: 12px;
+  border-radius: 10px;
+  border: 3px solid #197BE9;
+}
+
+button {
+  padding: 14px;
+  font-size: 15px;
+  background-color: #197BE9;
+  color: white;
+  border: 0px;
+  border-radius: 12px;
+  margin: 20px 0px;
+  cursor: pointer;
+}

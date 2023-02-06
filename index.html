@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Conversor moedas </title>
+  <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/6475/6475905.png">
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<div>
+<!-- partial:index.partial.html -->
+<div class="container">
+  <h1 class="page-title">
+    Conversor de moedas utilizando API
+  </h1>
+  <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt="">
+</div>
+<a href="https://alura.com.br/" target="_blank">
+  <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+  <img src="https://media.discordapp.net/attachments/831207255214784522/1070476885689118831/logodasmoedas.png" class="logomoedas">
+</a>
+<main>
+<div class="calculadora">
+<p id="date">
+  <div><span id="thisdate"></span></div>
+</p>
+<br>
+  <select name="moeda1" id="moeda1" class='select'>
+    <option value="real">Real R$</option>
+    <option value="dolar">Dólar U$</option>
+    <option value="euro">Euro €</option>
+    <option value="btc">BTC</option>
+</select>
+For
+<select name="moeda2" id="moeda2" class='select'>
+  <option value="real">Real R$</option>
+  <option value="dolar">Dólar U$</option>
+  <option value="euro">Euro €</option>
+  <option value="btc">BTC</option>
+</select>
+<br>
+<br>
+  <input type="number" id='valorIns' placeholder="Informe o valor" class="valor">
+<button id='calcular'>Calcular</button>
+
+<div class="result" id="resultado"> </div>
+</div>
+</main>
+<br>
+<footer style="color: white;">Desenvolvido por Thiago Alexandre &copy; 2023</footer>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
