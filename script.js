@@ -114,4 +114,5 @@ if (moeda2 == 'btc'){
 } 
 }
 calcular.addEventListener("click", formula);
+console.log(data)
 })
