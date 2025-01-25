@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://cdn-icons-png.flaticon.com/512/6475/6475905.png"
+    />
+    <title>Histórico</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="grafico.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <header>
+    <ul>
+      <li><a href="index.html">Conversor</a></li>
+      <li><a href="grafico.html">Histórico</a></li>
+    </ul>
+  </header>
+  <main>
+    <select name="moeda1" id="moeda1" class="select">
+      <option value="USD" selected>Dólar U$</option>
+      <option value="EUR">Euro €</option>
+      <option value="BTC">BTC</option>
+    </select>
+    <canvas id="grafico1" style="width: 649px; height: 324px"></canvas>
+  </main>
+  <footer style="color: white">
+    Desenvolvido por Thiago Alexandre &copy; 2023
+  </footer>
+  <body>
+    <script src="grafico.js"></script>
+  </body>
+</html>

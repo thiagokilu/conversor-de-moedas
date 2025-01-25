@@ -1,0 +1,14 @@
+body {
+}
+
+main {
+  margin-top: 50px;
+  width: 900px;
+}
+canvas {
+  margin: 30px;
+}
+
+footer {
+  margin-top: 20px;
+}
